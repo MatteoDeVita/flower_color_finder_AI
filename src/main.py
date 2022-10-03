@@ -25,4 +25,3 @@ userInput = np.array((sys.argv[1:])).astype(float)
 neuralNetwork = NeuralNetwork(3, getFlowerNpArrayFromFile());
 neuralNetwork.train(30000)
 neuralNetwork.predict(userInput);
-print(neuralNetwork._synapses)
