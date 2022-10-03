@@ -1,5 +1,5 @@
 class Flower:
-    def __init__(self, size, type):
-        self.size = size;
+    def __init__(self, width, length, type):
+        self.size = [width, length];
         self.type = type;
         
